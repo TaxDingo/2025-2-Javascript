@@ -28,7 +28,7 @@ async function main() {
     console.log (`Una temperatura de ${temperatura} °C es Calurosa`);
   }
   else {
-    console.log (`Dato no medible en mi base de datos.`);
+    console.log (`Dato no medible en mi base de datos   .`);
   };
 
 }
