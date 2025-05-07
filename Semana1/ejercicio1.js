@@ -1,9 +1,14 @@
-const {ask} = require ('../helpers/input.js');
+// Clase 1: ¿Qué es programar? + Variables y Tipos de Datos
 
-async function main () {
-    const name= await ask ('¿Cual es tu Nombre?');
-    const age= Number (await ask ('¿Cual es tu Edad?'));
-    
-    console.log(`Hola ${name} , tienes ${age} años.`);    
+const { ask } = require('../helpers/input');
+
+async function main() {
+  const name = await ask("¿Cómo te llamas? ");
+  const age = Number(await ask("¿Cuántos años tienes? "));
+  // TODO : Agregar pregunta para comida favorita
+
+  console.log("Hola " + name + ", tienes " + age + " años.");
+  //console.log(`Tu comida favorita es ${comida}.`);
 }
+
 main();

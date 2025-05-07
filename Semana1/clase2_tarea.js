@@ -15,21 +15,9 @@ async function main() {
   if (temperatura < 10) {
     console.log("Hace frío");
   }
-    // TODO: Implementar la lógica para temperaturas entre 10 y 20 grados
-  else if (temperatura > 10 && temperatura < 20 ){
-        console.log (`Una temperatura de ${temperatura} °C es agradable` );
-  }
-    // TODO: Implementar la lógica para temperaturas entre 20 y 30 grados
-  else if(temperatura > 20 && temperatura < 30 ) {
-    console.log (`Una temperatura de ${temperatura} °C es templada`);
-  }
-    // TODO: Implementar la lógica para temperaturas superiores a 30 grados
-  else if (temperatura > 30 && temperatura < 50 ) {
-    console.log (`Una temperatura de ${temperatura} °C es Calurosa`);
-  }
-  else {
-    console.log (`Dato no medible en mi base de datos   .`);
-  };
+  // TODO: Implementar la lógica para temperaturas entre 10 y 20 grados
+  // TODO: Implementar la lógica para temperaturas entre 20 y 30 grados
+  // TODO: Implementar la lógica para temperaturas superiores a 30 grados
 
 }
 
