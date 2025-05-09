@@ -7,19 +7,19 @@
 
 const { ask } = require('../helpers/input');
 
-function obtenerMayor (num1,num2){
+function obtenerMayor (a,b){
 
-    if (num1 > num2){
-        return `El numero ${num1} es Mayor que ${num2}`;
+    if (a > b){
+        return `El numero ${a} es Mayor que ${b}`;
     }else {
-        return `El número ${num2} es Mayor que ${num1}`;
+        return `El número ${b} es Mayor que ${a}`;
     }
 } 
 
 async function main() {
     
-    const num1=number (await ask( "Dame un número: "));
-    const num2=number (await ask( "Dame un segundo número: "));
+    const num1=Number (await ask( "Dame un número: "));
+    const num2=Number (await ask( "Dame un segundo número: "));
     if(num1===num2){
         console.log ("Los numeros son iguales")
     } else {
