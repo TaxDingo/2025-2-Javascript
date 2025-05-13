@@ -24,6 +24,7 @@ async function main() {
         console.log ("Los numeros son iguales")
     } else {
     const resultado = obtenerMayor(num1,num2);
+    console.log (resultado);
     }
 }
 
